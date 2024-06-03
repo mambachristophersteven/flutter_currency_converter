@@ -7,6 +7,7 @@ class CurrencyConverterMarerialPage extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return const Scaffold(
+      backgroundColor: Colors.green,
         body: Center(
           child: Column( 
           mainAxisAlignment: MainAxisAlignment.center,
@@ -16,8 +17,20 @@ class CurrencyConverterMarerialPage extends StatelessWidget{
               "let's see",
               style: TextStyle(
                 fontSize: 35,
-                fontWeight: FontWeight.w800,
-              ),),
+                fontWeight: FontWeight.w700,
+                color: Color.fromARGB(255, 255, 255, 255),
+              ),
+              ),
+              TextField(
+                
+              ),
+              
+              // ButtonBar(
+              //   buttonHeight: 50,
+              //   buttonMinWidth: 50,
+              //   buttonPadding: EdgeInsets.all(40),
+                
+              // )
           ],
         ),) 
          
