@@ -8,8 +8,19 @@ class CurrencyConverterMarerialPage extends StatelessWidget{
   Widget build(BuildContext context){
     return const Scaffold(
         body: Center(
-          child: Text("see me again"),
-        ),
+          child: Column( 
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Text(
+              "let's see",
+              style: TextStyle(
+                fontSize: 35,
+                fontWeight: FontWeight.w800,
+              ),),
+          ],
+        ),) 
+         
       );
   }
   }
